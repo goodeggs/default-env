@@ -1,0 +1,33 @@
+{
+  "name": "default-env",
+  "version": "1.0.0",
+  "description": "Composable cascading environment variable defaults",
+  "author": "Good Eggs <open-source@goodeggs.com>",
+  "contributors": [
+    "Adam Hull <adam@hmlad.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "environment",
+    "configuration"
+  ],
+  "main": "default_env",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/default-env.git"
+  },
+  "homepage": "https://github.com/goodeggs/default-env",
+  "bugs": "https://github.com/goodeggs/default-env/issues",
+  "dependencies": {
+    "underscore": "~1.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x",
+    "jshint": "*",
+    "chai": "~1.10.0"
+  },
+  "scripts": {
+    "test": "jshint *.js && mocha"
+  }
+}
